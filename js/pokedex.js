@@ -30,11 +30,10 @@ $(function() {
   // Now... take a deep breath and go back to your move lists.
   // TODO: Find a way to use variables to make your code more readable!
 
-  // (extra credit) TODO: Add a list of all avaiable learn_types with no repeats!
-
   // (extra credit) TODO:  either...
   //   1. Change up your code so that visitors can select which pokemon (squirtle, charmander, bulbasaur, etc.)
   //   they want to see, and then show that pokemon's stats and picture, or...
   //   2. Use the Pokeapi to let your users access all of the pokemon! Don't worry about the picture.
 
+  // (extra credit) TODO: Add a list of all avaiable learn_types with no repeats!
 })
