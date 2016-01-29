@@ -1,8 +1,4 @@
 $(function() {
-  console.log(bulbasaur);
-  console.log(pikachu);
-  console.log(squirtle);
-  console.log(charmander);
   // Step 0: Set your assigned pokemon to the "pokemon" variable! I have put in Bulbasaur for an example
   var pokemon = bulbasaur;
 
