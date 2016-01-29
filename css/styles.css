@@ -1,0 +1,37 @@
+span {
+  display: block;
+}
+.pokedex-image {
+  position: relative;
+  background-image: url(http://gran4u.xtgem.com/Pokedex.png);
+  width: 800px;
+  height: 600px;
+  margin: auto;
+}
+
+.image-container {
+  position: absolute;
+  top: 225px;
+  left: 70px;
+}
+
+::-webkit-scrollbar {
+  /*background: gray;*/
+}
+
+.image-container img {
+  width: 250px;
+}
+
+.content-container {
+  position: absolute;
+  width: 290px;
+  height: 385px;
+  right: 30px;
+  top: 155px;
+  background: #444444;
+  color: white;
+  padding-left: 20px;
+  font-family: courier;
+  overflow-y: scroll;
+}
