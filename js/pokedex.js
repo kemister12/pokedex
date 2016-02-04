@@ -32,4 +32,26 @@ $(function() {
   //   2. Use the Pokeapi to let your users access all of the pokemon! Don't worry about the picture.
 
   // (extra credit) TODO: Add a list of all avaiable learn_types with no repeats!
-})
+  
+  
+  // You don't have to touch anything below here, but if you're curious, this code
+  // automatically changes the pokedex image to match your current Pokemon.
+  var getProperImageURL = function(pokemon) {
+    var pokemonNumber = pokemon.pkdx_id;
+    var urlNum = returnThreeDigits(pokemonNumber);
+    return "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/" + urlNum + ".png";
+  };
+  
+  var returnThreeDigits = function(num) {
+    if (num < 10) {
+      return "00" + num;
+    } else if (num < 100) {
+      return "0" + num;
+    } else {
+      return num;
+    }
+  };
+
+  var tag = $("<img>").attr("src", getProperImageURL(pokemon)).attr("alt", "Oh no! Is pokemon defined?");
+  $(".image-container").html(tag);
+});
