@@ -21,7 +21,7 @@ jQuery AJAX documentation: http://api.jquery.com/jquery.ajax/
 ```javascript
 // WARNING: If you copy and paste this and try to use it, you will be very sad.
 // Use your resources above to figure out how to use this hint.
-$.get("http://pokeapi.co/api/v1/type/3/", function(mysteryVariable) {
+$.get("//pokeapi.co/api/v1/type/3/", function(mysteryVariable) {
   console.log(mysteryVariable) // What is mysteryVariable? What could we call this variable instead to make our lives easier? 
 })
 ```
